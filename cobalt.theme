@@ -1,0 +1,236 @@
+{
+    "_comments": [
+        "My attempt at converting the GtkSourceView cobalt theme made by Will Farrington to KSyntaxHighlighting"
+    ],
+    "metadata": {
+        "copyright": [
+            "SPDX-FileCopyrightText: 2024 lithium-hypercube"
+        ],
+        "license": "SPDX-License-Identifier: LGPL",
+        "name": "Cobalt",
+        "revision": 1
+    },
+    "editor-colors": {
+        "BackgroundColor": "#001b33",
+        "BracketMatching": "#4f94cd",
+        "CodeFolding": "#003b70",
+        "CurrentLine": "#003b70",
+        "CurrentLineNumber": "#0088ff",
+        "IconBorder": "#000d1a",
+        "IndentationLine": "#cccccc",
+        "LineNumbers": "#0065bf",
+        "MarkBookmark": "#ffffff",
+        "MarkBreakpointActive": "#f07178",
+        "MarkBreakpointDisabled": "#ffee99",
+        "MarkBreakpointReached": "#e6b673",
+        "MarkError": "#990000",
+        "MarkExecution": "#95e6cb",
+        "MarkWarning": "#ffdd00",
+        "ModifiedLines": "#ffb054",
+        "SavedLines": "#3ad900",
+        "SearchHighlight": "#00BF8C",
+        "Separator": "#4f94cd",
+        "SpellChecking": "#990000",
+        "TabMarker": "#cccccc",
+        "TemplateBackground": "#cccccc",
+        "TemplateFocusedPlaceholder": "#003b70",
+        "TemplatePlaceholder": "#0065bf",
+        "TemplateReadOnlyPlaceholder": "#4f94cd",
+        "TextSelection": "#0088FF",
+        "WordWrapMarker": "#00213F"
+    },
+    "text-styles": {
+        "Alert": {
+            "bold": true,
+            "selected-text-color": "#ffffff",
+            "text-color": "#ffdd00"
+        },
+        "Annotation": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#0088ff"
+        },
+        "Attribute": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#cccccc"
+        },
+        "BaseN": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ff0044"
+        },
+        "BuiltIn": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ff9d00",
+            "bold": true
+        },
+        "Char": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ffffff"
+        },
+        "Comment": {
+            "italic": true,
+            "selected-text-color": "#ffffff",
+            "text-color": "#0088ff"
+        },
+        "CommentVar": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#0088ff"
+        },
+        "Constant": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ff0044"
+        },
+        "ControlFlow": {
+            "bold": true,
+            "selected-text-color": "#ffffff",
+            "text-color": "#ff9d00"
+        },
+        "DataType": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#80ffbb"
+        },
+        "DecVal": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ff0044"
+        },
+        "Documentation": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#0088ff"
+        },
+        "Error": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#990000",
+            "underline": true
+        },
+        "Extension": {
+            "bold": true,
+            "selected-text-color": "#ffffff",
+            "text-color": "#80ffbb"
+        },
+        "Float": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ff0044"
+        },
+        "Function": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#cccccc"
+        },
+        "Import": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#3ad900"
+        },
+        "Information": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#0088ff"
+        },
+        "Keyword": {
+            "bold": true,
+            "selected-text-color": "#ffffff",
+            "text-color": "#ff9d00"
+        },
+        "Normal": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ffffff"
+        },
+        "Operator": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ffffff"
+        },
+        "Others": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ffffff"
+        },
+        "Preprocessor": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#cccccc"
+        },
+        "RegionMarker": {
+            "background-color": "#173649",
+            "selected-text-color": "#ffffff",
+            "text-color": "#0088ff"
+        },
+        "SpecialChar": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#cccccc"
+        },
+        "SpecialString": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#3ad900"
+        },
+        "String": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#3ad900"
+        },
+        "Variable": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#80ffbb"
+        },
+        "VerbatimString": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#3ad900"
+        },
+        "Warning": {
+            "selected-text-color": "#ffffff",
+            "text-color": "#ffdd00",
+            "underline": true
+        }
+    },
+    "custom-styles": {
+        "XML": {
+            "Attribute": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#cccccc"
+            },
+            "Element": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#80ffbb",
+                "bold": false
+            },
+            "Processing Instruction": {
+                "selected-text-color": "#ffffff",
+                "bold": false,
+                "text-color": "#ffffff"
+            },
+            "EntityRef": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#ffdd00"
+            }
+        },
+        "Bash": {
+            "function": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#ffdd00"
+            },
+            "functions": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#ffdd00"
+            }
+            },
+        "Zsh": {
+            "function": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#ffdd00"
+            },
+            "functions": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#ffdd00"
+            },
+        "C": {
+            "Preprocessor": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#80ffbb",
+                "bold": true
+
+            },
+            "Define": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#0088ff",
+                "bold": true
+            },
+            "Include": {
+                "selected-text-color": "#ffffff",
+                "text-color": "#3ad900"
+            }
+            }
+        }
+    }
+}
